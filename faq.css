@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Ubuntu:wght@300;400&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif; 
+    background-image: linear-gradient(black,#03003b );
+    color: #fff;
+
+}
+
+section{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 2rem 0rem;
+}
+
+
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq1{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 28vw;
+    top: 8vw;
+}
+.faq2{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 22.4vw;
+    top: 41vh;
+}
+
+.faq3{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    position: absolute;
+    right: 20vw;
+    top: 60vh;
+}
+
+.question h3{
+font-size: 1.8rem;
+}
